@@ -6,7 +6,7 @@ public class Conn {
     
     Connection c;
     Statement s;
-    
+   
     public Conn(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver"); // Step1 Registering the jdbc driver

@@ -75,6 +75,7 @@ public class Login extends JFrame implements ActionListener{
             if(rs.next()){
                 setVisible(false);
                 // next class
+                new Names(0);
             }
             else{
                 // Change popup appearance later
